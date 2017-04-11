@@ -34,10 +34,10 @@ INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
    5000, '2017-03-03 12:00', 100, 1)
 
 Отрицательная цена
-без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Камера', '127', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg', -500,
    NULL, 100, 0)
+без ошибок
 
 Наличие на складе меньше нуля
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
@@ -86,16 +86,16 @@ INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
 
 
 Отрицательная цена
-без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Микрофон', '128', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg',
    -1000, '2017-04-05 13:10:45', 300, 'false');
+без ошибок
 
 Наличие на складе меньше нуля
-без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Камера', '129', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg', 1000,
    '2017-04-05 13:10:45', -300, 'false');
+без ошибок
 
 Пустой артикул
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
@@ -138,20 +138,20 @@ INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
    '2017-04-04 12:05', 100, 0);
 
 Отрицательная цена
-без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Микрофон', '128', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg',
    -1000, '2017-04-05 13:10:45', 300, 'false');
+без ошибок
 
 Наличие на складе меньше нуля
-без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Камера', '129', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg', 1000,
    '2017-04-05 13:10:45', -300, 'false');
+без ошибок
 
 Пустой артикул
-без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Наушники', '', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg', 1000,
    '2017-04-05 13:10:45', 300, 'true');
+без ошибок
 
