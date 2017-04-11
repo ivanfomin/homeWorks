@@ -33,7 +33,6 @@ INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Наушники', '120', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg',
    5000, '2017-03-03 12:00', 100, 1)
 
-
 Отрицательная цена
 без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
