@@ -139,7 +139,7 @@ INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
    '2017-04-04 12:05', 100, 0);
 
 Отрицательная цена
-SQLite
+без ошибок
 INSERT INTO products (title, vendor, img, price, bringing, count, native) VALUES
   ('Микрофон', '128', 'http://st03.kakprosto.ru/tumb/680/images/article/2014/4/15/1_5353829b4177a5353829b417b8.jpg',
    -1000, '2017-04-05 13:10:45', 300, 'false');
