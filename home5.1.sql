@@ -27,7 +27,8 @@ ON UPDATE CASCADE;
 
 SELECT cast(orders.timeAndDate as date) AS DATE, 
 COUNT(*),SUM(products.price) AS SUM FROM `orders`,products 
-WHERE orders.product_id = products.id GROUP BY 1
+WHERE orders.product_id = products.id 
+GROUP BY 1;
 
 
 # Альберт, вынужден извинится за качество моих домашек
