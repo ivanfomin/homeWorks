@@ -14,7 +14,7 @@ WHERE categories.id = products.categor_id
 AND products.counts > 0 )
 AS Price 
 FROM categories 
-HAVING Price > 3300
+HAVING Price < 1000
 ORDER BY categories.name
 
 CREATE TABLE `DBA`.`orders` ( `id` SERIAL NOT NULL , `timeAndDate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,product_id BIGINT(10) UNSIGNED NOT NULL  , PRIMARY KEY (`id`)) ENGINE = InnoDB;
