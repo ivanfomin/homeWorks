@@ -1,0 +1,12 @@
+{
+    "name": "ioan/home-otus1",
+    "authors": [
+        {
+            "name": "Ivan Fomin",
+            "email": "la-verne@mail.ru"
+        }
+    ],
+    "require": {
+        "ifomin/brackets": "dev-master"
+    }
+}

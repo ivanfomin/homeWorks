@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e10c8f8f56c3a0514b5e6fd29fdad825",
+    "packages": [
+        {
+            "name": "ifomin/brackets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ivanfomin/brackets.git",
+                "reference": "52b2bafbb94a48002f80a7c2f1e06a222ed843ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivanfomin/brackets/zipball/52b2bafbb94a48002f80a7c2f1e06a222ed843ce",
+                "reference": "52b2bafbb94a48002f80a7c2f1e06a222ed843ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Fomin",
+                    "email": "la-verne@yandex.ru"
+                }
+            ],
+            "description": "Test composer package",
+            "time": "2017-12-27T13:16:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ifomin/brackets": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
